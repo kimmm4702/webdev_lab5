@@ -3,47 +3,37 @@
 <head>
 	<meta charset="utf-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="formcss.css">
 </head>
 <body>
+	<h1>Volunteer Form</h1>
 	<form method="post" method="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
-	<fieldset>
-	<legend><label>My Info</label></legend>
+		<fieldset>
+		<legend><label>My Info</label></legend>
+		<div><label>first name: <input type="text" name="text_field" placeholder="first name" maxlength="20"></label></div>
+		<div><label>last name: <input type="text" name="text_field" placeholder="last name"maxlength="20"></label></div>
+		<div><label>phone: <input type="phone" name="phone_field" placeholder="phone here"maxlength="20"></label></div>
+		<div><label>email: <input type="email" name="email_field" placeholder="email here"maxlength="20"></label></div>
+		<div>ender:</div>
 		<div>
-			<label>first name: <input type="text" name="text_field" placeholder="first name" maxlength="20"></label>
-		</div>
-		<div>
-			<label>last name: <input type="text" name="text_field" placeholder="last name"maxlength="20"></label>
-		</div>
-		<div>
-			<label>phone: <input type="phone" name="phone_field" placeholder="phone here"maxlength="20"></label>
-		</div>
-		<div>
-			<label>email: <input type="email" name="email_field" placeholder="email here"maxlength="20"></label>
-		</div>
-		<div>
-			<h6>Gender:</h6>
 			<label>Male<input type="radio" name="radio_field" value="m"></label>
 			<label>Female<input type="radio" name="radio_field" value="f"></label>
 		</div>
-		<div>
-			<h6>Age:</h6>
-	</fieldset>
-	<fieldset>
-	<legend><label>My Availability</label></legend>
-		<h2>Days Available:</h2>
+		<div>Age:</div>
+		</fieldset>
+		<fieldset>
+		<legend>My Availability</legend>
+		<h3>Days Available:</h3>
 		<div>
 			<label>Sunday <input type="checkbox" name="checkbox_field[]" value="sunday"></label>
-			<label>Monday <input type="checkbox" name="checkbox_field[]" value="sunday"></label>
-			<label>Tuesday <input type="checkbox" name="checkbox_field[]" value="sunday"></label>
-			<label>Wednesday <input type="checkbox" name="checkbox_field[]" value="sunday"></label>
-			<label>Thursday <input type="checkbox" name="checkbox_field[]" value="sunday"></label>
-			<label>Friday <input type="checkbox" name="checkbox_field[]" value="sunday"></label>
-			<label>Saturday <input type="checkbox" name="checkbox_field[]" value="sunday"></label>
-		</div>
-		<div>
+			<label>Monday <input type="checkbox" name="checkbox_field[]" value="monday"></label>
+			<label>Tuesday <input type="checkbox" name="checkbox_field[]" value="tuesday"></label>
+			<label>Wednesday <input type="checkbox" name="checkbox_field[]" value="wednesdat"></label>
+			<label>Thursday <input type="checkbox" name="checkbox_field[]" value="thursday"></label>
+			<label>Friday <input type="checkbox" name="checkbox_field[]" value="friday"></label>
+			<label>Saturday <input type="checkbox" name="checkbox_field[]" value="saturday"></label>
+
 			<label for="our_textarea">Comments</label>
 			<textarea cols="30" rows="10" name="textarea_field"></textarea>
 		</div>
-	</fieldset>
+		</fieldset>
 </body>
