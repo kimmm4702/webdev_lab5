@@ -9,20 +9,17 @@
 	<form method="post" method="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
 		<fieldset>
 		<legend><label>My Info</label></legend>
-		#single-line text fields
 		<div><label>first name: <input type="text" name="first_name_field" placeholder="first name" maxlength="20"></label></div>
 		<div><label>last name: <input type="text" name="last_name_field" placeholder="last name"maxlength="20"></label></div>
 		<div><label>phone: <input type="phone" name="phone_field" placeholder="phone here"maxlength="20"></label></div>
 		<div><label>email: <input type="email" name="email_field" placeholder="email here"maxlength="20"></label></div>
 		<div>Gender:</div>
 		<div>
-			#radio buttons
 			<label>Male<input type="radio" name="gender_field" value="m"></label>
 			<label>Female<input type="radio" name="gender_field" value="f"></label>
 		</div>
 		<div>Age:</div>
 		<div>
-			#drop down
 			<select name="age_field[]">
 				<option value ="under 18"></option>
 				<option value="over 18"></option>
@@ -33,7 +30,6 @@
 		<legend>My Availability</legend>
 		<h3>Days Available:</h3>
 		<div>
-			#checkboxes
 			<div><label>Sunday <input type="checkbox" name="available_field[]" value="sunday"></label></div>
 			<div><label>Monday <input type="checkbox" name="available_field[]" value="monday"></label></div>
 			<div><label>Tuesday <input type="checkbox" name="available_field[]" value="tuesday"></label></div>
@@ -41,9 +37,8 @@
 			<div><label>Thursday <input type="checkbox" name="available_field[]" value="thursday"></label></div>
 			<div><label>Friday <input type="checkbox" name="available_field[]" value="friday"></label></div>
 			<div><label>Saturday <input type="checkbox" name="available_field[]" value="saturday"></label></div>
-			#multi line
 			<label for="our_textarea">Comments</label>
-			<textarea cols="10" rows="5" name="textarea_field"></textarea>
+			<textarea cols="5" rows="10" name="textarea_field"></textarea>
 		</div>
 		</fieldset>
 		<input type="submit" value="Submit Query">
