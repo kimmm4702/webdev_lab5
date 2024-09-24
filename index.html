@@ -20,27 +20,28 @@
 		</div>
 		<div>Age:</div>
 		<div>
-			<select name="age_field[]">
+			<select name="age_field">
 				<option value ="under 18"></option>
 				<option value="over 18"></option>
 			</select>
 		</div>
 		</fieldset>
 		<fieldset>
-		<legend>My Availability</legend>
-		<h3>Days Available:</h3>
-		<div>
-			<div><label>Sunday <input type="checkbox" name="available_field[]" value="sunday"></label></div>
-			<div><label>Monday <input type="checkbox" name="available_field[]" value="monday"></label></div>
-			<div><label>Tuesday <input type="checkbox" name="available_field[]" value="tuesday"></label></div>
-			<div><label>Wednesday <input type="checkbox" name="available_field[]" value="wednesdat"></label></div>
-			<div><label>Thursday <input type="checkbox" name="available_field[]" value="thursday"></label></div>
-			<div><label>Friday <input type="checkbox" name="available_field[]" value="friday"></label></div>
-			<div><label>Saturday <input type="checkbox" name="available_field[]" value="saturday"></label></div>
-			<label for="our_textarea">Comments</label>
-			<textarea cols="5" rows="10" name="textarea_field"></textarea>
-		</div>
+			<legend>My Availability</legend>
+			<h3>Days Available:</h3>
+			<div>
+				<div><label>Sunday <input type="checkbox" name="available_field[]" value="sunday"></label></div>
+				<div><label>Monday <input type="checkbox" name="available_field[]" value="monday"></label></div>
+				<div><label>Tuesday <input type="checkbox" name="available_field[]" value="tuesday"></label></div>
+				<div><label>Wednesday <input type="checkbox" name="available_field[]" value="wednesdat"></label></div>
+				<div><label>Thursday <input type="checkbox" name="available_field[]" value="thursday"></label></div>
+				<div><label>Friday <input type="checkbox" name="available_field[]" value="friday"></label></div>
+				<div><label>Saturday <input type="checkbox" name="available_field[]" value="saturday"></label></div>
+				<label for="our_textarea">Comments</label>
+				<textarea cols="5" rows="10" name="comments_field"></textarea>
+			</div>
 		</fieldset>
-		<input type="submit" value="Submit Query">
+		<input type="hidden" name="hidden_field" value="kdominguez">
+		<input type="Submit Query">
 	</form>
 </body>
